@@ -1,0 +1,3 @@
+xor ch, 0x20
+
+done:

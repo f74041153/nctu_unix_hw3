@@ -1,0 +1,11 @@
+mov eax, [0x600000]
+sal eax, 0x1
+mov [0x600004], eax
+mov eax, [0x600000]
+sal eax, 0x3
+add [0x600004], eax
+mov eax, [0x600000]
+sal eax, 0x4
+add [0x600004], eax
+
+done:
