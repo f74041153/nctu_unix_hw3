@@ -1,5 +1,5 @@
-and AX, 0x7F0
 shr AX, 0x5
+and AL, 0x7F
 mov [0x600000], AL
 
 done:
